@@ -1,0 +1,874 @@
+.flex-start {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-spacebetween, .chklist-list li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.list-wrap {
+  width: 100%;
+  background-color: #fff;
+}
+
+.clk-bg {
+  background-color: #f9f9f9;
+}
+
+.regi-tbl {
+  border: 0;
+  border-top: 1px solid rgb(221, 221, 221);
+  width: 100%;
+}
+.regi-tbl tr {
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+.regi-tbl th {
+  background-color: rgb(249, 249, 249);
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding: 15px 5px;
+  font-weight: 700px;
+}
+.regi-tbl td {
+  padding: 7px 10px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  text-align: left;
+}
+.regi-tbl input {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 4px;
+  height: 30px;
+  padding: 5px 10px;
+}
+.regi-tbl button {
+  border: 1px solid rgb(221, 221, 221);
+  background-color: #fff;
+  padding: 6px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bk-sel {
+  width: 130px;
+  border: solid 1px #ddd;
+  height: 32px !important;
+}
+
+.popup-btn {
+  display: inline-block;
+  width: 150px;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.popup-btn.close {
+  background: #eee;
+  color: #555;
+}
+
+.search-head {
+  font-weight: 700;
+}
+
+.top-bar {
+  border-top: solid 1px #eee;
+}
+
+.ad_table2 {
+  padding: 7px 10px;
+  overflow: hidden;
+}
+
+.ad_table_tit2 {
+  width: 100%;
+  display: flex;
+  padding: 15px 5px;
+  background: #f9f9f9;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-top: solid 1px #ddd;
+}
+
+.order-table {
+  padding: 7px 10px;
+  width: 50%;
+}
+.order-table:first-child {
+  border-right: 1px solid rgb(221, 221, 221);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.list_box .table_line .block-dp {
+  display: block;
+}
+
+.del-ready {
+  color: #000;
+}
+
+.del-compl {
+  color: #ddd;
+}
+
+.del-ing {
+  color: rgb(30, 171, 30);
+}
+
+.school-input {
+  width: 150px;
+  height: 32px;
+  padding: 3px;
+}
+
+.input-btn {
+  width: 70px;
+  height: 32px;
+  background-color: #f32433;
+  margin-left: 15px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.regi-btn {
+  width: 105px;
+  height: 36px;
+  text-align: center;
+  background-color: #f32433;
+  border: none;
+  border-radius: 3px;
+  padding: 9px 14px;
+  cursor: pointer;
+}
+.regi-btn a {
+  display: block;
+  color: #fff;
+}
+
+.ad_upload .txtbx {
+  padding: 5px 7px;
+  font-size: 13px;
+  line-height: 20px;
+  outline: none;
+  margin: 0 1%;
+  color: #666;
+}
+
+.ac-btn {
+  width: 70px;
+  height: 32px;
+  text-align: center;
+  background: #f32433;
+  color: #fff;
+  padding: 7px;
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+  margin-left: 2px;
+  border-radius: 3px;
+}
+
+.file-box {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  display: block;
+  overflow: hidden;
+  width: 70px;
+  height: 32px;
+  font-size: 14px;
+  text-align: center;
+  color: #444;
+}
+.file-box label {
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+  line-height: 32px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.ga_location {
+  width: 100px;
+}
+
+.ga_preview {
+  width: 42px;
+}
+
+.popup-preview .preview-content {
+  width: 700px;
+  height: 650px;
+}
+.popup-preview .chklist-head {
+  height: 70px;
+  margin: 0;
+  background-color: #eee;
+}
+.popup-preview .chklist-head .preview-h3 {
+  color: #000;
+  line-height: 70px;
+}
+
+.preview-img {
+  position: relative;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
+.preview-img h3 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.85);
+  max-width: 200px;
+  padding: 10px 20px;
+}
+
+.popup-head {
+  padding: 0 16px;
+  box-sizing: border-box;
+  height: 52px;
+  line-height: 52px;
+}
+.popup-head .ph-title {
+  float: left;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.popup-search {
+  width: 100%;
+  padding: 0 0 20px 0;
+}
+.popup-search ul {
+  width: 96.5%;
+  background: #f9f9f9;
+  padding: 15px 8%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.popup-search li {
+  float: left;
+  padding-right: 8px;
+}
+.popup-search .selectbox {
+  height: 36px;
+  font-size: 14px;
+  padding: 0 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  max-width: 190px;
+  background-color: #fff;
+}
+.popup-search .textbox2 {
+  width: calc(100% - 88px);
+  float: left;
+  height: 36px;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+}
+.popup-search .btn-type {
+  width: 80px;
+  margin-left: 8px;
+  float: right;
+  border: 1px solid #f32433;
+  background-color: #f32433;
+  -webkit-background-color: #f32433;
+  display: block;
+  height: 36px;
+  border-radius: 3px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.popup-school {
+  width: 95%;
+  margin: 10px auto 0;
+  height: 350px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.popup-school table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 2px solid #000;
+  letter-spacing: normal;
+  table-layout: fixed;
+}
+.popup-school th {
+  width: 70%;
+  font-size: 14px;
+  background: #eff2f8;
+  text-align: center;
+  padding: 8px 16px;
+}
+.popup-school th:first-child {
+  width: 30%;
+}
+.popup-school td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 14px;
+  text-align: left;
+  border: 1px solid #e4e8eb;
+  padding: 5px 8px;
+}
+
+.popup-btn {
+  background: #555;
+  display: block;
+  color: #fff;
+  padding: 8px 8px;
+  font-size: 13px;
+  border-radius: 5px;
+  width: 25%;
+  text-align: center;
+  margin: 26px auto 0;
+}
+
+.office-sel {
+  border: solid 1px #f32433;
+  border-radius: 5px;
+}
+.office-sel p {
+  height: 100%;
+  padding: 5px;
+}
+.office-sel a {
+  display: block;
+}
+.office-sel .school-sel {
+  border-right: solid 1px #f32433;
+}
+
+.btn-office {
+  background-color: #f32433;
+}
+.btn-office a {
+  color: #fff;
+}
+
+.pizzaMenu-info {
+  width: 48%;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.pizzaMenu-info .ad_table_tit {
+  background-color: #eee !important;
+}
+.pizzaMenu-info .ad_table {
+  background-color: #f9f9f9;
+}
+.pizzaMenu-info:nth-child(odd) {
+  float: left;
+}
+.pizzaMenu-info:nth-child(even) {
+  float: right;
+}
+
+#input-price {
+  text-align: right;
+}
+
+.list-bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+.list-bottom .btn_type {
+  width: 80px;
+  margin-left: 8px;
+  height: 28px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.option-content {
+  content: "";
+  width: 2px;
+  height: 20px;
+  background-color: #ddd;
+  margin: 0 10px;
+}
+
+.btn-date {
+  width: 70px;
+  height: 28px;
+  margin-right: 8px;
+  padding: 3px 0;
+  font-size: 14px;
+  cursor: pointer;
+  border: solid 1px #eee;
+  background-color: #eee;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#datepicker1,
+#datepicker2 {
+  height: 28px;
+  width: 130px;
+  font-weight: 600;
+}
+
+.btn-clk {
+  background-color: #f32433;
+  color: #fff;
+  border: #f32433;
+}
+
+.drive-chklist {
+  width: 60px;
+  height: 25px;
+  padding: 4px;
+  text-align: center;
+  border: solid 1px #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drive-chklist.chk-not {
+  color: #f32433;
+  border-color: #f32433;
+}
+.drive-chklist.chk-yet {
+  color: #ddd;
+  border-color: #ddd;
+  cursor: default;
+}
+.drive-chklist.chk-done {
+  color: green;
+  border-color: green;
+  cursor: default;
+}
+
+.preview-box {
+  display: block;
+  border: solid 1px #000;
+  width: 70px;
+  height: 25px;
+  padding: 3px;
+  text-align: center;
+}
+
+.noti-input {
+  border: 1px solid #ddd;
+  padding: 5px 7px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  outline: none;
+  width: 98%;
+  color: #666;
+}
+
+#noti-textarea {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px 7px;
+  font-size: 13px;
+  font-weight: 700;
+  width: 98%;
+}
+
+.ga_view a {
+  margin: 0 auto;
+}
+
+.mem-email {
+  width: 120px;
+  border: solid 1px #ddd;
+  height: 32px;
+}
+
+.mem-email2 {
+  width: 150px;
+  border: solid 1px #ddd;
+  height: 32px;
+}
+
+.rb_email span {
+  margin: 0 5px;
+}
+
+.de_btn {
+  width: 70px;
+  height: 32px;
+  text-align: center;
+  background-color: #444;
+  color: #fff;
+  padding: 7px;
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+  margin-left: 2px;
+  border-radius: 3px;
+}
+
+.input-box2 input {
+  width: 120px;
+}
+
+.input-box3 select {
+  width: 90px !important;
+}
+.input-box3 .accountNum {
+  width: 120px;
+  border: solid 1px #ddd;
+  height: 32px;
+}
+.input-box3 .accountOwner {
+  width: 90px;
+  border: solid 1px #ddd;
+  height: 32px;
+}
+
+.table-input {
+  width: 100%;
+  border: solid 1px #ddd;
+  height: 32px;
+}
+
+.textbox3 {
+  width: 100% !important;
+}
+
+.input-file {
+  padding: 6px 25px;
+  background-color: #f32433;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-download {
+  border: 1px solid #eee;
+  background-color: #fff;
+  -webkit-background-color: #fff;
+  display: block;
+  overflow: hidden;
+  width: 100px;
+  height: 28px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+  font-weight: 500;
+  line-height: 16px;
+  cursor: pointer;
+}
+.btn-download img {
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+
+.ga_orderList {
+  width: 62px;
+}
+
+.chklist-head {
+  margin-top: 40px;
+}
+.chklist-head h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 44px;
+  font-weight: 100 !important;
+  margin: 20px 0;
+}
+
+.chklist-info {
+  font-family: "Poppins", "Pretendard", sans-serif;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #ddd;
+}
+.chklist-info ul {
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.chklist-list {
+  font-family: "Poppins", "Pretendard", sans-serif;
+}
+.chklist-list ul {
+  margin-top: 20px;
+}
+.chklist-list li {
+  margin: 20px 0;
+}
+.chklist-list li p {
+  margin: 0;
+}
+
+.popup-bg {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.popup-content {
+  position: absolute;
+  width: 500px;
+  height: 900px;
+  padding: 0 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.receipt-head {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-bottom: solid 1px #bbb;
+}
+.receipt-head h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #000;
+}
+
+.x-icon-wrap {
+  position: absolute;
+  top: 50%;
+  margin-top: -11px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.x-icon-wrap .x-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.x-icon-wrap .x-icon span {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+.x-icon-wrap .x-icon .x-left {
+  transform: rotate(135deg) translateX(0%);
+}
+.x-icon-wrap .x-icon .x-right {
+  transform: rotate(45deg) translateX(0%);
+}
+
+.receipt-top {
+  border-bottom: solid 1px #bbb;
+  padding: 20px 0;
+}
+.receipt-top h2 {
+  margin: 0;
+}
+
+.receipt-top-title {
+  margin-bottom: 15px;
+}
+
+.receipt-top-cont ul {
+  line-height: 25px;
+}
+
+.receipt-product {
+  padding: 20px 0;
+  border-bottom: solid 1px #ddd;
+}
+.receipt-product p {
+  display: inline-block;
+  margin: 0;
+}
+
+.product-main {
+  font-size: 18px;
+}
+.product-main .product-price {
+  float: right;
+}
+
+.product-sub P {
+  font-size: 16px;
+  color: #ccc;
+  padding-top: 3%;
+}
+
+.receipt-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 15px;
+  width: 100%;
+  height: 90px;
+  border-top: solid 1px #555;
+}
+
+.receipt-total p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+.product-amount p:nth-child(2) {
+  float: right;
+}
+
+.product-tot-price p:nth-child(2) {
+  float: right;
+}
+
+.memo-wrap {
+  width: 75%;
+  display: flex;
+  padding: 7px 10px;
+  align-items: center;
+  overflow: hidden;
+}
+.memo-wrap .ad_table {
+  width: 100% !important;
+}
+.memo-wrap .memo-input {
+  width: 100%;
+}
+
+.memo-list {
+  width: 100%;
+}
+.memo-list li {
+  width: 100% !important;
+  margin: 6px 0;
+}
+.memo-list .memo-cont {
+  width: calc(100% - 30px);
+}
+.memo-list .memo-remove {
+  border: solid 1px #ddd;
+  margin-left: 10px;
+  padding: 1px;
+  height: 20px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.memo-input {
+  border-top: solid 1px #ddd;
+  padding-top: 7px;
+}
+.memo-input input {
+  width: 250px;
+  height: 25px;
+}
+.memo-input .btn-regi {
+  width: 50px;
+  height: 25px;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 5px;
+  border: solid 1px #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ga_pzReady,
+.ga_pzExpl {
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#pzExpl {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: solid 1px #ddd;
+  padding: 10px;
+}
+
+.ga_chkbtn {
+  width: 65px;
+}
+
+.nochk {
+  border: solid 1px #f32433;
+  background-color: #f32433;
+  color: #fff;
+}
+
+.donechk {
+  cursor: auto;
+}
+
+.radio-btn .container-radio {
+  margin-right: 10px !important;
+}
